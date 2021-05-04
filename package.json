@@ -1,0 +1,34 @@
+{
+    "name": "rn-simple-swipe",
+    "version": "1.0.0",
+    "description": "React Native simple swipeable component",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "node bin/dev.js",
+        "dev": "yarn build && yarn watch",
+        "watch": "onchange 'lib/*.js' -- yarn build",
+        "android": "cd example && yarn android && yarn start",
+        "ios": "cd example && yarn ios"
+    },
+    "peerDependencies": {
+        "prop-types": ">=15.5.0",
+        "react": ">=0.14.8",
+        "react-native": ">=0.23.1"
+    },
+    "keywords": [
+        "react-native-swipeable",
+        "swipeable",
+        "swipe",
+        "react",
+        "react-native",
+        "react-component",
+        "ios",
+        "android"
+    ],
+    "author": "Stefan Diskic",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "onchange": "^7.1.0"
+    }
+}
