@@ -11,9 +11,10 @@
         "ios": "cd example && yarn ios"
     },
     "peerDependencies": {
-        "prop-types": ">=15.5.0",
-        "react": ">=0.14.8",
-        "react-native": ">=0.23.1"
+        "prop-types": ">=15.7.2",
+        "react": ">=17.0.1",
+        "react-native": ">=0.64.0",
+        "react-native-gesture-handler": ">=1.10.3"
     },
     "keywords": [
         "react-native-swipeable",
@@ -27,7 +28,9 @@
     ],
     "author": "Stefan Diskic",
     "license": "ISC",
-    "dependencies": {},
+    "dependencies": {
+        "prop-types": "15.7.1"
+    },
     "devDependencies": {
         "onchange": "^7.1.0"
     }

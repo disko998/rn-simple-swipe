@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
-var { exec, spawn } = require('child_process')
 
 fs.copyFileSync('lib/Swipeable.js', 'example/Swipeable.js')
 
