@@ -16,6 +16,10 @@
         "react-native": ">=0.64.0",
         "react-native-gesture-handler": ">=1.10.3"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/disko998/rn-simple-swipe.git"
+    },
     "keywords": [
         "react-native-swipeable",
         "swipeable",
