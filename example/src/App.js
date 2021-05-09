@@ -8,9 +8,9 @@ import {
 } from 'react-native';
 import React from 'react';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import Swipeable from '../lib';
-
 import data from './MOCK_DATA.json';
+
+import Swipeable from '../lib';
 
 const App = () => {
   return (
@@ -31,14 +31,12 @@ const ListItem = ({first_name, last_name, email}) => {
       color: '#8daef0',
       onPress: () => Alert.alert(`Add ${first_name}`),
       children: <FontAwesome name="plus" size={30} color="#fff" />,
-      width: 80,
     },
     {
       label: 'Remove',
       color: '#f07067',
       onPress: () => Alert.alert(`Remove ${first_name}`),
       children: <FontAwesome name="trash-o" size={30} color="#fff" />,
-      width: 80,
     },
   ];
 
