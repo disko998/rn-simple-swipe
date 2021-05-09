@@ -1,4 +1,4 @@
-# rn-simple-swipe [![NPM version][npm-image]][npm-url]
+# rn-simple-swipe [![npm version](https://badge.fury.io/js/rn-simple-swipe.svg)](https://badge.fury.io/js/rn-simple-swipe)
 
 Easy to use swipeable component for React Native built on top of [react-native-gesture-handler/Swipeable](https://docs.swmansion.com/react-native-gesture-handler/docs/api/components/swipeable/), support both iOS and Android.
 
