@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import React from 'react';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import Swipeable from 'rn-simple-swipe';
+import Swipeable from '../lib';
 
 import data from './MOCK_DATA.json';
 
@@ -45,12 +45,7 @@ const ListItem = ({first_name, last_name, email}) => {
   const leftAction = {
     label: 'Boo',
     onPress: () => alert('Boo'),
-    children: (
-      <View style={{flexDirection: 'row', alignItems: 'center'}}>
-        <FontAwesome name="snapchat-ghost" size={25} color="#fff" />
-        <Text style={{marginLeft: 10, color: '#fff'}}>Boo</Text>
-      </View>
-    ),
+    icon: <FontAwesome name="snapchat-ghost" size={30} color="#fff" />,
   };
 
   return (
