@@ -2,7 +2,7 @@
 
 Easy to use swipeable component for React Native built on top of [react-native-gesture-handler/Swipeable](https://docs.swmansion.com/react-native-gesture-handler/docs/api/components/swipeable/), support both iOS and Android.
 
-<img src="./demo.gif" width="310">
+<img src="https://github.com/disko998/rn-simple-swipe/blob/master/demo.gif" width="310">
 
 ## Installation
 
