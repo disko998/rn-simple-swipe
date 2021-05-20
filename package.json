@@ -1,42 +1,42 @@
 {
-	"name": "rn-simple-swipe",
-	"version": "1.2.0",
-	"description": "React Native simple swipeable component",
-	"main": "lib/index.js",
-	"scripts": {
-		"build": "node bin/dev.js",
-		"dev": "yarn build && yarn watch",
-		"watch": "onchange 'lib/*.js' -- yarn build",
-		"android": "cd example && yarn android && yarn start",
-		"ios": "cd example && yarn ios",
-		"v+": "node bin/version.js"
-	},
-	"peerDependencies": {
-		"prop-types": ">=15.7.2",
-		"react": ">=17.0.1",
-		"react-native": ">=0.64.0",
-		"react-native-gesture-handler": ">=1.10.3"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/disko998/rn-simple-swipe.git"
-	},
-	"keywords": [
-		"react-native-swipeable",
-		"swipeable",
-		"swipe",
-		"react",
-		"react-native",
-		"react-component",
-		"ios",
-		"android"
-	],
-	"author": "Stefan Diskic",
-	"license": "ISC",
-	"dependencies": {
-		"prop-types": "15.7.1"
-	},
-	"devDependencies": {
-		"onchange": "^7.1.0"
-	}
+    "name": "rn-simple-swipe",
+    "version": "1.7.0",
+    "description": "React Native simple swipeable component",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "node bin/dev.js",
+        "dev": "yarn build && yarn watch",
+        "watch": "onchange 'lib/*.js' -- yarn build",
+        "android": "cd example && yarn android && yarn start",
+        "ios": "cd example && yarn ios",
+        "increase-version": "node bin/version.js"
+    },
+    "peerDependencies": {
+        "prop-types": ">=15.7.2",
+        "react": ">=17.0.1",
+        "react-native": ">=0.64.0",
+        "react-native-gesture-handler": ">=1.10.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/disko998/rn-simple-swipe.git"
+    },
+    "keywords": [
+        "react-native-swipeable",
+        "swipeable",
+        "swipe",
+        "react",
+        "react-native",
+        "react-component",
+        "ios",
+        "android"
+    ],
+    "author": "Stefan Diskic",
+    "license": "ISC",
+    "dependencies": {
+        "prop-types": "15.7.1"
+    },
+    "devDependencies": {
+        "onchange": "^7.1.0"
+    }
 }

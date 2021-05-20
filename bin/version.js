@@ -7,6 +7,8 @@ const packageJson = fs.readFileSync(`package.json`, {
 
 const data = JSON.parse(packageJson)
 
+console.log('Current: rn-simple-swipe@', `v${data.version} 📦`)
+
 var myArgs = process.argv.slice(2)
 
 if (myArgs.includes('--fix')) {
@@ -34,5 +36,5 @@ if (myArgs.includes('--fix')) {
     data.version = version.join('.')
 }
 
-console.log('rn-simple-swipe@', `v${data.version}`)
+console.log('Updated: rn-simple-swipe@', `v${data.version}  📦✅`)
 fs.writeFileSync('package.json', JSON.stringify(data, null, '\t'))
