@@ -42,6 +42,7 @@ const ListItem = ({first_name, last_name, email}) => {
 
   const leftAction = {
     label: 'Boo',
+    color: '#388e3c',
     onPress: () => alert('Boo'),
     icon: <FontAwesome name="snapchat-ghost" size={30} color="#fff" />,
   };
