@@ -6,7 +6,7 @@ import {
   Text,
   Alert,
 } from 'react-native';
-import React from 'react';
+import React, {createRef} from 'react';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import data from './MOCK_DATA.json';
 
@@ -25,6 +25,8 @@ const App = () => {
 };
 
 const ListItem = ({first_name, last_name, email}) => {
+  const ref = createRef();
+
   const rightActions = [
     {
       label: 'Add',
@@ -49,7 +51,7 @@ const ListItem = ({first_name, last_name, email}) => {
 
   return (
     <View style={styles.container}>
-      <Swipeable rightActions={rightActions} leftAction={leftAction}>
+      <Swipeable ref={ref} rightActions={rightActions} leftAction={leftAction}>
         <View style={styles.item}>
           <Text>{`${first_name} ${last_name}`}</Text>
           <Text>{email}</Text>
