@@ -1,6 +1,6 @@
 {
 	"name": "rn-simple-swipe",
-	"version": "1.8.0",
+	"version": "1.10.0",
 	"description": "React Native simple swipeable component",
 	"main": "lib/index.js",
 	"scripts": {
@@ -9,7 +9,7 @@
 		"watch": "onchange 'lib/*.js' -- yarn build",
 		"android": "cd example && yarn android && yarn start",
 		"ios": "cd example && yarn ios",
-		"increase-version": "node bin/version.js"
+		"version+": "node bin/version.js"
 	},
 	"peerDependencies": {
 		"prop-types": ">=15.7.2",
